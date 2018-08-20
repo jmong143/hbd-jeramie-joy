@@ -1,183 +1,323 @@
-<!DOCTYPE html>
-<html lang="en">
-<head> 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= title %></title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css" id="bootstrap-css">
-    <link rel="stylesheet" href="./css/greet-panel.css">
-    <link rel="stylesheet" href="./css/magnific-popup.css">
-    <link rel="stylesheet" href="./css/templatemo-style.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/fb-profile.css">
-    <link rel="stylesheet" href="./css/demo.css">
-    <link rel="stylesheet" href="./css/component.css">
-</head>
-<body>
-  <header>
-    <nav class="nav dark-nav">
-      <div class="container">
-        <div class="nav-heading">
-          <button class="toggle-nav" data-toggle="open-navbar1"><i class="fa fa-align-right"></i></button>
-          <a class="brand" href="#"><span class = "fa fa-heart"></span> EM <span class = "fa fa-heart"></span> </a>
-        </div>
-        <div class="menu" id="open-navbar1">
-          <ul class="list">
-            <li> <a href="/" ><span class = "fa fa-home"></span> Home</a></li>
-            <li><a href="/birthday-girl"><span class = "fa fa-gift"></span> Birthday Girl</a></li>
-            <li class = "active"><a href="/throwback"><span class = "fa fa-heart"></span> Throwback</a></li>
-            <li><a href="/greetings"><span class = "fa fa-comment"></span> Greetings</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12">
-        <section class="tm-header-gallery">
-          
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-            <a href="img/img-11-03.jpg"><img src="img/img-11-03.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"></a>
-            <a href="img/img-11-04.jpg"><img src="img/img-11-04.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"></a>
-          </div>
-          
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-            <div class="tm-site-name">
-              <h2 class="text-uppercase tm-site-name-h2-custom">Happy Birthday</h2>
-              <h2 class="tm-site-name-h2">Jeramie Joy!!!</h2>    
-            </div>
-            <img src="img/logo-bg.jpg" alt="Image" class="img-fluid tm-header-img">
-          </div>
-                                      
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-pad-0">
-            <a href="img/img-11-01.jpg"><img src="img/img-11-01.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"></a>
-            <a href="img/img-11-06.jpg"><img src="img/img-11-06.jpg" alt="Image" class="img-fluid tm-header-img col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"></a>                        
-          </div>                
-        
-        </section>
-      </div>
-    </div>                
-    <hr/>
+<% include _tpl/header %>
+<% include _tpl/halfbanner %>
   <!-- BODY CONTENT  -->
   <div class="container">
   <div class="row">
     
-    <h4>Throwback Pictures</h4>
+    <h4>Sherry and Jeramie</h4>
     
       <section id="photostack-2" class="photostack photostack-start">
         <div>
           <figure>
-            <a href="http://goo.gl/49lN3k" class="photostack-img"><img src="img/4.jpg" alt="img04"/></a>
+            <a href="./img/tbt/bff/1.png" class="photostack-img"><img src="./img/tbt/bff/1.png" alt="img01"/></a>
             <figcaption>
-              <h2 class="photostack-title">Heaven of time</h2>
-              <div class="photostack-back">
+              <h2 class="photostack-title">School</h2>
+              <!-- <div class="photostack-back">
                 <p>What might be right for you may not be right for some. And we know Flipper lives in a world full of wonder flying there-under under the sea.</p>
-              </div>
+              </div> -->
             </figcaption>
           </figure>
           <figure>
-            <a href="http://goo.gl/NJ1Dhf" class="photostack-img"><img src="img/5.jpg" alt="img05"/></a>
+            <a href="./img/tbt/bff/2.png" class="photostack-img"><img src="./img/tbt/bff/2.png" alt="img02"/></a>
             <figcaption>
-              <h2 class="photostack-title">Speed Racer</h2>
+              <h2 class="photostack-title">Foodtrip</h2>
             </figcaption>
           </figure>
-          <figure data-shuffle-iteration="2">
-            <a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="img/1.jpg" alt="img01"/></a>
+         <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/bff/3.png" class="photostack-img"><img src="./img/tbt/bff/3.png" alt="img03"/></a>
             <figcaption>
-              <h2 class="photostack-title">Serenity Beach</h2>
-              <div class="photostack-back">
+              <h2 class="photostack-title">...</h2>
+              <!-- <div class="photostack-back">
                 <p>I have never been to a place so serene in my entire life before. Swimming in clear waters opened my mind to nature and reminded me of my and <span>eveybody</span> everybody else's mortality.</p>
-              </div>
+              </div> -->
             </figcaption>
           </figure>
-          <figure>
-            <a href="http://goo.gl/fhwlSP" class="photostack-img"><img src="img/2.jpg" alt="img02"/></a>
+            <figure>
+            <a href="./img/tbt/bff/4.png" class="photostack-img"><img src="./img/tbt/bff/4.png" alt="img04"/></a>
             <figcaption>
-              <h2 class="photostack-title">Happy Days</h2>
-              <div class="photostack-back">
+              <h2 class="photostack-title">Mcdo</h2>
+              <!-- <div class="photostack-back">
                 <p>These Happy Days are yours and mine Happy Days. It's a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine?</p>
-              </div>
+              </div> -->
             </figcaption>
           </figure>
           <figure data-shuffle-iteration="3">
-            <a href="http://goo.gl/Jmvr4u" class="photostack-img"><img src="img/3.jpg" alt="img03"/></a>
+            <a href="./img/tbt/bff/5.png" class="photostack-img"><img src="./img/tbt/bff/5.png" alt="img05"/></a>
             <figcaption>
-              <h2 class="photostack-title">Beautywood</h2>
+              <h2 class="photostack-title">School</h2>
             </figcaption>
           </figure>
           <figure data-shuffle-iteration="2">
-            <a href="http://goo.gl/Ms7VDl" class="photostack-img"><img src="img/6.jpg" alt="img06"/></a>
+            <a href="./img/tbt/bff/6.png" class="photostack-img"><img src="./img/tbt/bff/6.png" alt="img06"/></a>
             <figcaption>
-              <h2 class="photostack-title">Forever this</h2>
+              <h2 class="photostack-title">School</h2>
             </figcaption>
           </figure>
           <figure data-shuffle-iteration="2">
-            <a href="#" class="photostack-img"><img src="img/7.jpg" alt="img07"/></a>
+            <a href="./img/tbt/bff/7.png" class="photostack-img"><img src="./img/tbt/bff/7.png" alt="img07"/></a>
             <figcaption>
-              <h2 class="photostack-title">Lovely Green</h2>
+              <h2 class="photostack-title">Baguio</h2>
             </figcaption>
           </figure>
           <figure data-shuffle-iteration="3">
-            <a href="#" class="photostack-img"><img src="img/8.jpg" alt="img08"/></a>
+            <a href="./img/tbt/bff/8.png" class="photostack-img"><img src="./img/tbt/bff/8.png" alt="img08"/></a>
             <figcaption>
-              <h2 class="photostack-title">Wonderful</h2>
+              <h2 class="photostack-title">...</h2>
             </figcaption>
           </figure>
           <figure data-shuffle-iteration="2">
-            <a href="#" class="photostack-img"><img src="img/9.jpg" alt="img09"/></a>
+            <a href="./img/tbt/bff/9.png" class="photostack-img"><img src="./img/tbt/bff/9.png" alt="img09"/></a>
             <figcaption>
-              <h2 class="photostack-title">Love Addict</h2>
+              <h2 class="photostack-title">...</h2>
             </figcaption>
           </figure>
-          <figure data-dummy>
-            <a href="#" class="photostack-img"><img src="img/10.jpg" alt="img10"/></a>
+          <figure data-shuffle-iteration="4">
+            <a href="./img/tbt/bff/10.png" class="photostack-img"><img src="./img/tbt/bff/10.png" alt="img10"/></a>
             <figcaption>
               <h2 class="photostack-title">Friendship</h2>
             </figcaption>
           </figure>
           <figure data-dummy>
-            <a href="#" class="photostack-img"><img src="img/11.jpg" alt="img11"/></a>
-            <figcaption>
-              <h2 class="photostack-title">White Nights</h2>
-            </figcaption>
+            <a href="./img/tbt/bff/11.png" class="photostack-img"><img src="./img/tbt/bff/11.png" alt="img10"/></a>
+          </figure> 
+          <figure data-dummy>
+            <a href="./img/tbt/bff/12.png" class="photostack-img"><img src="./img/tbt/bff/12.png" alt="img10"/></a>
           </figure>
           <figure data-dummy>
-            <a href="#" class="photostack-img"><img src="img/12.jpg" alt="img12"/></a>
-            <figcaption>
-              <h2 class="photostack-title">Serendipity</h2>
-            </figcaption>
+            <a href="./img/tbt/bff/13.png" class="photostack-img"><img src="./img/tbt/bff/13.png" alt="img10"/></a>
           </figure>
           <figure data-dummy>
-            <a href="#" class="photostack-img"><img src="img/13.jpg" alt="img13"/></a>
-            <figcaption>
-              <h2 class="photostack-title">Pure Soul</h2>
-            </figcaption>
+            <a href="./img/tbt/bff/14.png" class="photostack-img"><img src="./img/tbt/bff/14.png" alt="img10"/></a>
           </figure>
           <figure data-dummy>
-            <a href="#" class="photostack-img"><img src="img/14.jpg" alt="img14"/></a>
-            <figcaption>
-              <h2 class="photostack-title">Winds of Peace</h2>
-            </figcaption>
-          </figure>
-          <figure data-dummy>
-            <a href="#" class="photostack-img"><img src="img/15.jpg" alt="img15"/></a>
-            <figcaption>
-              <h2 class="photostack-title">Shades of blue</h2>
-            </figcaption>
-          </figure>
-          <figure data-dummy>
-            <a href="#" class="photostack-img"><img src="img/16.jpg" alt="img16"/></a>
-            <figcaption>
-              <h2 class="photostack-title">Lightness</h2>
-            </figcaption>
+            <a href="./img/tbt/bff/15.png" class="photostack-img"><img src="./img/tbt/bff/15.png" alt="img10"/></a>
           </figure>
         </div>
       </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <hr/>
+      <br/>
+      <h4>Jeramie and Michael</h4>
+      <section id="photostack-us" class="photostack photostack-start">
+        <div>
+          <figure>
+            <a href="./img/tbt/us/1.png" class="photostack-img"><img src="./img/tbt/us/1.png" alt="img01"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">School</h2> -->
+              <!-- <div class="photostack-back">
+                <p>What might be right for you may not be right for some. And we know Flipper lives in a world full of wonder flying there-under under the sea.</p>
+              </div> -->
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="./img/tbt/us/2.png" class="photostack-img"><img src="./img/tbt/us/2.png" alt="img02"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Foodtrip</h2> -->
+            </figcaption>
+          </figure>
+         <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/us/3.png" class="photostack-img"><img src="./img/tbt/us/3.png" alt="img03"/></a>
+            <figcaption>
+              <h2 class="photostack-title">...</h2>
+              <!-- <div class="photostack-back">
+                <p>I have never been to a place so serene in my entire life before. Swimming in clear waters opened my mind to nature and reminded me of my and <span>eveybody</span> everybody else's mortality.</p>
+              </div> -->
+            </figcaption>
+          </figure>
+            <figure>
+            <a href="./img/tbt/us/4.png" class="photostack-img"><img src="./img/tbt/us/4.png" alt="img04"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Mcdo</h2> -->
+              <!-- <div class="photostack-back">
+                <p>These Happy Days are yours and mine Happy Days. It's a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine?</p>
+              </div> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="3">
+            <a href="./img/tbt/us/5.png" class="photostack-img"><img src="./img/tbt/us/5.png" alt="img05"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">School</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/us/6.png" class="photostack-img"><img src="./img/tbt/us/6.png" alt="img06"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">School</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/us/7.png" class="photostack-img"><img src="./img/tbt/us/7.png" alt="img07"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Baguio</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="3">
+            <a href="./img/tbt/us/20.png" class="photostack-img"><img src="./img/tbt/us/20.png" alt="img08"/></a>
+            <figcaption>
+              <h2 class="photostack-title">...</h2>
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/us/9.png" class="photostack-img"><img src="./img/tbt/us/9.png" alt="img09"/></a>
+            <figcaption>
+              <h2 class="photostack-title">...</h2>
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="4">
+            <a href="./img/tbt/us/10.png" class="photostack-img"><img src="./img/tbt/us/10.png" alt="img10"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Friendship</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="4">
+            <a href="./img/tbt/us/11.png" class="photostack-img"><img src="./img/tbt/us/11.png" alt="img10"/></a>
+          </figure> 
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/us/12.png" class="photostack-img"><img src="./img/tbt/us/12.png" alt="img10"/></a>
+          </figure>
+          <figure data-shuffle-iteration="1">
+            <a href="./img/tbt/us/13.png" class="photostack-img"><img src="./img/tbt/us/13.png" alt="img10"/></a>
+          </figure>
+          <figure data-shuffle-iteration="3">
+            <a href="./img/tbt/us/14.png" class="photostack-img"><img src="./img/tbt/us/14.png" alt="img10"/></a>
+          </figure>
+          <figure data-shuBffle-iteration="2">
+            <a href="./img/tbt/us/15.png" class="photostack-img"><img src="./img/tbt/us/15.png" alt="img10"/></a>
+          </figure>
+          <figure data-dummy>
+            <a href="./img/tbt/us/16.png" class="photostack-img"><img src="./img/tbt/us/16.png" alt="img10"/></a>
+          </figure>
+          <figure data-dummy>
+            <a href="./img/tbt/us/17.png" class="photostack-img"><img src="./img/tbt/us/17.png" alt="img10"/></a>
+          </figure>
+          <figure data-dummy>
+            <a href="./img/tbt/us/18.png" class="photostack-img"><img src="./img/tbt/us/18.png" alt="img10"/></a>
+          </figure>
+          <figure data-dummy>
+            <a href="./img/tbt/us/19.png" class="photostack-img"><img src="./img/tbt/us/19.png" alt="img10"/></a>
+          </figure>
+        </div>
+      </section>
+
+
+
+      <hr/>
+      <br/>
+      <h4>TGLG</h4>
+      <section id="photostack-tglg" class="photostack photostack-start">
+        <div>
+          <figure>
+            <a href="./img/tbt/tglg/1.png" class="photostack-img"><img src="./img/tbt/tglg/1.png" alt="img01"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">School</h2> -->
+              <!-- <div class="photostack-back">
+                <p>What might be right for you may not be right for some. And we know Flipper lives in a world full of wonder flying there-under under the sea.</p>
+              </div> -->
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="./img/tbt/tglg/2.png" class="photostack-img"><img src="./img/tbt/tglg/2.png" alt="img02"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Foodtrip</h2> -->
+            </figcaption>
+          </figure>
+         <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/tglg/3.png" class="photostack-img"><img src="./img/tbt/tglg/3.png" alt="img03"/></a>
+            <figcaption>
+              <h2 class="photostack-title">...</h2>
+              <!-- <div class="photostack-back">
+                <p>I have never been to a place so serene in my entire life before. Swimming in clear waters opened my mind to nature and reminded me of my and <span>eveybody</span> everybody else's mortality.</p>
+              </div> -->
+            </figcaption>
+          </figure>
+            <figure>
+            <a href="./img/tbt/tglg/4.png" class="photostack-img"><img src="./img/tbt/tglg/4.png" alt="img04"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Mcdo</h2> -->
+              <!-- <div class="photostack-back">
+                <p>These Happy Days are yours and mine Happy Days. It's a beautiful day in this neighborhood a beautiful day for a neighbor. Would you be mine?</p>
+              </div> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="3">
+            <a href="./img/tbt/tglg/5.png" class="photostack-img"><img src="./img/tbt/tglg/5.png" alt="img05"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">School</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/tglg/6.png" class="photostack-img"><img src="./img/tbt/tglg/6.png" alt="img06"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">School</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/tglg/7.png" class="photostack-img"><img src="./img/tbt/tglg/7.png" alt="img07"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Baguio</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="3">
+            <a href="./img/tbt/tglg/8.png" class="photostack-img"><img src="./img/tbt/tglg/8.png" alt="img08"/></a>
+            <figcaption>
+              <h2 class="photostack-title">...</h2>
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/tglg/9.png" class="photostack-img"><img src="./img/tbt/tglg/9.png" alt="img09"/></a>
+            <figcaption>
+              <h2 class="photostack-title">...</h2>
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="4">
+            <a href="./img/tbt/tglg/10.png" class="photostack-img"><img src="./img/tbt/tglg/10.png" alt="img10"/></a>
+            <figcaption>
+              <!-- <h2 class="photostack-title">Friendship</h2> -->
+            </figcaption>
+          </figure>
+          <figure data-shuffle-iteration="4">
+            <a href="./img/tbt/tglg/11.png" class="photostack-img"><img src="./img/tbt/tglg/11.png" alt="img10"/></a>
+          </figure> 
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/tglg/12.png" class="photostack-img"><img src="./img/tbt/tglg/12.png" alt="img10"/></a>
+          </figure>
+          <figure data-shuffle-iteration="1">
+            <a href="./img/tbt/tglg/13.png" class="photostack-img"><img src="./img/tbt/tglg/13.png" alt="img10"/></a>
+          </figure>
+          <figure data-shuffle-iteration="3">
+            <a href="./img/tbt/tglg/14.png" class="photostack-img"><img src="./img/tbt/tglg/14.png" alt="img10"/></a>
+          </figure>
+          <figure data-shuffle-iteration="2">
+            <a href="./img/tbt/tglg/15.png" class="photostack-img"><img src="./img/tbt/tglg/15.png" alt="img10"/></a>
+          </figure>
+        </div>
+      </section>
+
   </div>
   <hr/>
 
@@ -220,6 +360,18 @@
 <script>
   $('body').addClass('loaded');
   new Photostack( document.getElementById( 'photostack-2' ), {
+     callback : function( item ) {
+      console.log(item)
+      }
+  } );
+  
+  new Photostack( document.getElementById( 'photostack-tglg' ), {
+     callback : function( item ) {
+      console.log(item)
+      }
+  } );
+    
+  new Photostack( document.getElementById( 'photostack-us' ), {
      callback : function( item ) {
       console.log(item)
       }
