@@ -140,13 +140,13 @@ $(document).on('click', '.btnUserGreet', function(){
     greet3 = `<center><div class = "col-md-12"><img src = ${user.greetUrl3}> </div></center><br/>`
   }
   if(user.videoUrl){
-    videoGreet1 = `Watch this video, <br/><center><div class = "col-md-12"><iframe src = ${user.videoUrl} ></iframe> </div></center><br/>`
+    videoGreet1 = `Watch this video, <br/><center><div class = "col-md-12"> ${user.videoUrl}  </div></center><br/>`
   }
   if(user.videoUrl2){
-    videoGreet2 = `<center><div class = "col-md-12"><iframe src = ${user.videoUrl2} ></iframe> </div></center><br/>`
+    videoGreet2 = `<center><div class = "col-md-12"> ${user.videoUrl2} </div></center><br/>`
   }
   if(user.videoUrl3){
-    videoGreet3 = `<center><div class = "col-md-12"><iframe src = ${user.videoUrl3} ></iframe> </div></center><br/>`
+    videoGreet3 = `<center><div class = "col-md-12"> ${user.videoUrl3} </div></center><br/>`
   }
 
   $("#greetingContent").html("<div>" + text + greet1 + greet2 + greet3 + videoGreet1 + videoGreet2 + videoGreet3 + "</div>");
