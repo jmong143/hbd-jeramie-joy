@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET birthday girl. */
-router.get('/birthday-girl', function(req, res, next) {
+router.get('/message', function(req, res, next) {
   res.render('birthday-girl', { title: 'Happy Birthday Jeramie Joy Alayon', navbar: navbarHeader });
 });
 
@@ -39,9 +39,12 @@ router.get('/greetings', function(req, res, next) {
       {"id": "10", "name": "Jireh Joy Alayon", "class": "btn-danger", "greetUrl1": "/img/greetings/message/bam-greet1.png", "greetUrl2": "/img/greetings/message/bam-greet2.png", "greetUrl3": "/img/greetings/message/bam-greet3.png", "videoUrl": "", "videoUrl2": "", "videoUrl3": "", "picUrl": "/img/greetings/dp/bam-self.png"},
       {"id": "11", "name": "Sherry Mae Manuel", "class": "btn-danger", "greetUrl1": "/img/greetings/message/sherry-greet.png", "greetUrl2": "", "greetUrl3": "", "videoUrl": '<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/kDiVuWZ-Ces?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>', "videoUrl2": "", "videoUrl3": "", "picUrl": "/img/greetings/dp/sherry-self.png"},
       {"id": "12", "name": "Marvin and Bel", "class": "btn-danger", "greetUrl1": "", "greetUrl2": "", "greetUrl3": "", "videoUrl": '<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/5rPahS25wc4?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>', "videoUrl2": '<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/dntFx0-miBk?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>', "videoUrl3": '<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/K4gPnBFdjtc?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>', "picUrl": "/img/greetings/dp/marbel-self.png"},
-      {"id": "13", "name": "Anjanette Gan and Amanda", "class": "btn-danger", "greetUrl1": "", "greetUrl2": "", "greetUrl3": "", "videoUrl": '<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/yw7tyap-hOc?ecver=2" width="480" height="360" frameborder="0" allow="autoplay; encrypted-media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div> ', "videoUrl2": '', "videoUrl3": '', "picUrl": "/img/greetings/dp/anjanette-self.png"}
+      {"id": "13", "name": "Anjanette Gan and Amanda", "class": "btn-danger", "greetUrl1": "", "greetUrl2": "", "greetUrl3": "", "videoUrl": '<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/yw7tyap-hOc?ecver=2" width="480" height="360" frameborder="0" allow="autoplay; encrypted-media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div> ', "videoUrl2": '', "videoUrl3": '', "picUrl": "/img/greetings/dp/anjanette-self.png"},
+      {"id": "14", "name": "Maiden Javier", "class": "btn-danger", "greetUrl1": "/img/greetings/message/mads-greet.png", "greetUrl2": "", "greetUrl3": "", "videoUrl": '', "videoUrl2": '', "videoUrl3": '', "picUrl": "/img/greetings/dp/mads-self.png"},
+      {"id": "15", "name": "John Rey Iguin", "class": "btn-danger", "greetUrl1": "/img/greetings/message/rey-greet.png", "greetUrl2": "", "greetUrl3": "", "videoUrl": '', "videoUrl2": '', "videoUrl3": '', "picUrl": "/img/greetings/dp/rey-self.png"},
+      {"id": "16", "name": "Jane Villar", "class": "btn-danger", "greetUrl1": "/img/greetings/message/jane-greet.png", "greetUrl2": "", "greetUrl3": "", "videoUrl": '', "videoUrl2": '', "videoUrl3": '', "picUrl": "/img/greetings/dp/jane-self.png"},
+      {"id": "17", "name": "Jz Lynne Bulos ", "class": "btn-danger", "greetUrl1": "/img/greetings/message/bulos-greet.png", "greetUrl2": "", "greetUrl3": "", "videoUrl": '', "videoUrl2": '', "videoUrl3": '', "picUrl": "/img/greetings/dp/bulos-self.png"}
       
-     
     ]
   }
   res.render('greetings', { title: 'Greetings - Happy Birthday Jeramie Joy Alayon', greetingsData: greetingsData });

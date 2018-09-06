@@ -62,12 +62,16 @@ videoUrl -->
 </div>
 <footer class="row tm-footer">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-    <p class="text-xs-center tm-copyright">Copyright &copy; 2018 John Michael Ong 
+    <p class="text-xs-center tm-copyright">Copyright &copy; 2018  Boyfriend
   </div>
 </footer>
 
 
-
+<div class="scroll-top-wrapper">
+  <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"></i>
+  </span>
+</div>
 
 
 <div id="loader-wrapper">
@@ -81,6 +85,7 @@ videoUrl -->
 <script src="./js/animatedModal.min.js"></script>
 <script src="./js/tether.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/back-top.js"></script>
 <script src="./js/jquery.magnific-popup.min.js"></script>
 <script src="./js/navbar.js"></script>
 <script src="./js/magnetic-popup.js"></script>
@@ -121,10 +126,14 @@ $("#btnClickUser10").animatedModal();
 $("#btnClickUser11").animatedModal();
 $("#btnClickUser12").animatedModal();
 $("#btnClickUser13").animatedModal();
+$("#btnClickUser14").animatedModal();
+$("#btnClickUser15").animatedModal();
+$("#btnClickUser16").animatedModal();
+$("#btnClickUser17").animatedModal();
 $(document).on('click', '.btnUserGreet', function(){
   let user = $(this).data('user');
   console.log( user );
-  let text = `<div class = "col-md-4"></div> <div class = "col-md-4"><p align = "center" style = "color:black;">${user.name} has message for you!</p></div> <div class = "col-md-4"></div>`
+  let text = `<div class = "col-md-12"><p align = "center" style = "color:black;">${user.name} has message for you!</p></div><br/><br/>`
   let greet1 = "";
   let greet2 = "";
   let greet3 = "";
@@ -141,7 +150,7 @@ $(document).on('click', '.btnUserGreet', function(){
     greet3 = `<center><div class = "col-md-12"><img src = ${user.greetUrl3}> </div></center><br/>`
   }
   if(user.videoUrl){
-    videoGreet1 = `Watch this video, <br/><center><div class = "col-md-12"> ${user.videoUrl}  </div></center><br/>`
+    videoGreet1 = `<div> Watch this video, </div> <br/><center><div class = "col-md-12"> ${user.videoUrl}  </div></center><br/>`
   }
   if(user.videoUrl2){
     videoGreet2 = `<center><div class = "col-md-12"> ${user.videoUrl2} </div></center><br/>`
